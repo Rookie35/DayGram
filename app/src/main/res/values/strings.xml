@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">daygram</string>
+    <string name="month_test">NOV</string>
+    <string name="year_test">2018</string>
+    <item name="tag_1" type="id"></item>
+    <item name="tag_2" type="id"></item>
+    <item name="tag_3" type="id"></item>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/month_tabbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:background="@color/colorBackground"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Jan_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="JAN"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Feb_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="FEB"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Mar_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="MAR"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Apr_tar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="APR"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/May_tar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="MAY"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Jun_bar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:gravity="center"
+                android:text="JUN"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Jul_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="JUL"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Aug_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="AUG"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Sep_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="SEP"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Oct_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="OCT"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+            android:id="@+id/Nov_bar"
+            android:gravity="center"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/greycircle"
+            android:text="NOV"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Dec_bar"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/greycircle"
+                android:text="DEC"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>
